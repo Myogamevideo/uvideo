@@ -49,3 +49,7 @@ let getSiblings = function (e) {
     }
     return siblings;
 };
+
+$(document).ready(function () {
+	$('#carousel3D').carousel();
+});
