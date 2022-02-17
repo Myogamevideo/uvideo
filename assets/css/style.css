@@ -353,6 +353,8 @@ h1, .h1 {
 .dashboard-toolbar {
     min-height: 84px;
     background-image: url("../../img/backgroundheader2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
