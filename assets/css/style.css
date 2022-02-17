@@ -472,6 +472,7 @@ body {
     color: var(--tertiary);
     font-size: 2em;
     font-weight: bold;
+    text-transform: uppercase;
     margin: -5px 0 0;
     padding: 10px 5px;
     text-align: center;
