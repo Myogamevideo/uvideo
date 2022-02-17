@@ -464,7 +464,6 @@ body {
 .carousel {
     height: 700px;
     perspective: 600px;
-    transform: translateY(-100px);
 }
 
 .carousel .carousel-item {
