@@ -349,7 +349,7 @@ h1, .h1 {
 
 .dashboard-toolbar {
     min-height: 84px;
-    background-color: #dfdfdf;
+    background-image: url("../../img/backgroundheader.png");
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
