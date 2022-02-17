@@ -450,6 +450,15 @@ body {
     background-color: #000000;
 }
 
+#rechercher {
+    display: flex;
+    justify-content: center;
+}
+#rechercher img {
+    width: 50%;
+    height: 100%;
+}
+
 .carousel {
     height: 700px;
     perspective: 600px;
