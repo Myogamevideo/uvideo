@@ -2,6 +2,9 @@
     --font-family-sans-serif: "Open Sans", -apple-system, BlinkMacSystemFont,
         "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
         "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --primary: #FFA466;
+    --secondary: #785392;
+    --tertiary: #fff;
 }
 
 *, *::before, *::after {
@@ -465,8 +468,8 @@ body {
 }
 
 .carousel .carousel-item h3 {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: transparent;
+    color: var(--tertiary);
     font-size: 2em;
     font-weight: bold;
     margin: -5px 0 0;
