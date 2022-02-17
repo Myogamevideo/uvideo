@@ -128,7 +128,8 @@ h1, .h1 {
 }
 
 .dashboard-nav {
-    min-width: 238px;
+    min-width: 100px;
+    max-width: 200px;
     position: fixed;
     left: 0;
     top: 0;
@@ -378,7 +379,7 @@ h1, .h1 {
 
 @media (min-width: 992px) {
     .dashboard-app {
-        margin-left: 470px;
+        margin-left: 200px;
     }
     
     .dashboard-compact .dashboard-app {
