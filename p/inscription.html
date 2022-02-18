@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="IE=edge" http-equiv="X-UA-Compatible">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+        <link href="../bootstrap.css" rel="stylesheet">
+        <link href="../assets/css/style.css" rel="stylesheet">
+        <title>Inscription | UVideo</title>
+    </head>
+    <body id="connexion">
+        <div class='dashboard'>
+            <div class="dashboard-nav">
+                <header>
+                    <a class="menu-toggle" href="#!">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                    <img alt="logo-site" class="logo-navbar p-0 m-0" src="../img/logo_Uvideo.png">
+                </header>
+                <nav class="dashboard-nav-list"><a class="dashboard-nav-item" href="#"><i class="fas fa-home"></i>
+                    Accueil </a>
+                    <div class='dashboard-nav-dropdown'><a class="dashboard-nav-item dashboard-nav-dropdown-toggle"
+                                                           href="#!"><i
+                            class="fas fa-catégories"></i>
+                        Catégories </a>
+                        <div class='dashboard-nav-dropdown-menu'><a class="dashboard-nav-dropdown-item"
+                                                                    href="#">Recommandé</a><a
+                                class="dashboard-nav-dropdown-item"
+                                href="#">Recent</a><a class="dashboard-nav-dropdown-item"
+                                                      href="#">Top
+                            10</a></div>
+                    </div>
+                    <a class="dashboard-nav-item" href="#"><i class="fas fa-blibliotheque"></i> Bibliothèque </a>
+                    <a class="dashboard-nav-item" href="#"><i class="fas fa-user"></i> Profil </a>
+                    <div class="nav-item-divider"></div>
+                    <a class="dashboard-nav-item" href="#"><i class="fas fa-sign-out-alt"></i> Déconnexion </a>
+                </nav>
+            </div>
+            <div class='dashboard-app'>
+                <header class='dashboard-toolbar'><a class="menu-toggle" href="#!"><i class="fas fa-bars"></i></a>
+                </header>
+
+                <section id="connexion-logo">
+                    <img alt="logo-site" class="p-0 m-0" src="../img/logo_Uvideo.png">
+                </section>
+
+                <section id="connexion-form">
+                    <div class="container bg-light rounded py-4 text-center d-flex flex-column justify-content-center align-items-center">
+                        <h1 class="text-center text-dark fw-bold">Inscription</h1>
+                        <form class="w-75">
+                            <div class="mb-3 text-start">
+                                <label for="exampleInputEmail1" class="form-label">Nom d’utilisateur ou adresse Email:</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3 text-start">
+                                <label for="exampleInputPassword1" class="form-label">Mot de passe:</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check text-start">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
+                            </div>
+                            <button type="submit" class="w-100 btn btn-submit">Submit</button>
+                        </form>
+                    </div>
+                </section>
+
+                <section id="connexion-via" class="mt-4">
+                    <div class="container d-flex flex-column align-items-center">
+                        <div class="btn-connexion-with">
+                            <img class="google-icon" src="../img/google-logo.png" alt="Google icon">
+                            Connexion via google
+                        </div>
+
+                        <div class="btn-connexion-with d-flex">
+                            <div class="facebook-icon">
+                            </div>
+                            Connexion via Facebook
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="../assets/js/script.js"></script>
+        <script src="../bootstrap.js"></script>
+    </body>
+</html>
