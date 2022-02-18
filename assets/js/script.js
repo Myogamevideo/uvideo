@@ -51,5 +51,11 @@ let getSiblings = function (e) {
 };
 
 $(document).ready(function () {
-	$('#carousel3D').carousel();
+    $('#carousel3D').carousel();
+
+    $('#carousel-materialize').carousel({
+        indicators: true,
+        fullWidth: true
+    });
 });
+

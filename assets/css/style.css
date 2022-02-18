@@ -462,25 +462,140 @@ body {
     height: 100%;
 }
 
-.carousel {
+
+
+
+.carouselM {
+    overflow: hidden !important;
+    position: relative !important;
+    width: 100%;
+    height: 400px;
+    -webkit-perspective: 500px !important;
+            perspective: 500px !important;
+    -webkit-transform-style: preserve-3d !important;
+            transform-style: preserve-3d !important;
+    -webkit-transform-origin: 0% 50% !important;
+            transform-origin: 0% 50% !important;
+  }
+  
+  .carouselM .carousel-slider {
+    top: 0;
+    left: 0;
+  }
+  
+  .carouselM .carousel-slider .carousel-fixed-item {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    z-index: 1;
+  }
+  
+  .carouselM .carousel-slider .carousel-fixed-item.with-indicators {
+    bottom: 68px;
+  }
+  
+  .carouselM .carousel-slider .carousel-item {
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .carouselM .carousel-slider .carousel-item h2 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+  }
+  
+  .carouselM .carousel-slider .carousel-item p {
+    font-size: 15px;
+  }
+  
+  .carouselM  .carousel-item {
+    visibility: hidden;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .carouselM  .carousel-item > img {
+    width: 100%;
+  }
+  
+  .carouselM  .indicators {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+  }
+  
+  .carouselM  .indicators .indicator-item {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    margin: 24px 4px;
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    border-radius: 50%;
+  }
+  
+  .carouselM  .indicators .indicator-item.active {
+    background-color: #fff;
+  }
+  
+  .carouselM .scrolling .carousel-item .materialboxed,
+  .carouselM  .carousel-item:not(.active) .materialboxed {
+    pointer-events: none;
+  }
+
+.logo-navbar {
+    width: 100%;
+}
+
+.carousel-main {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.populaire-title {
+    color: var(--tertiary);
+    margin-top: 3rem;
+}
+
+.populaire-title h2 {
+    font-family: "Mochiy Pop One";
+}
+
+.carou3d {
+    margin-top: -8rem;
     height: 500px;
     perspective: 600px;
 }
 
-.carousel .carousel-item {
+.carou3d .carousel-item {
     cursor: grab;
     width: 400px;
 }
 
-.carousel .carousel-item:active {
+.carou3d .carousel-item:active {
     cursor: grabbing;
 }
 
-.carousel .carousel-item img {
+.carou3d .carousel-item img {
     width: 100%;
 }
 
-.carousel .carousel-item h3 {
+.carou3d .carousel-item h3 {
     background-color: transparent;
     color: var(--tertiary);
     font-size: 2em;
@@ -492,110 +607,14 @@ body {
 }
 
 
-.carousel {
-    overflow: hidden !important;
-    position: relative !important;
-    width: 100% !important;
-    -webkit-perspective: 500px !important;
-    perspective: 500px !important;
-    -webkit-transform-style: preserve-3d !important;
-    transform-style: preserve-3d !important;
-    -webkit-transform-origin: 0% 50% !important;
-    transform-origin: 0% 50% !important;
-}
-
-
-.carousel.carousel-slider {
-    top: 0;
-    left: 0;
-}
-
-.carousel.carousel-slider .carousel-fixed-item {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 20px;
-    z-index: 1;
-}
-
-.carousel.carousel-slider .carousel-fixed-item.with-indicators {
-    bottom: 68px;
-}
-
-.carousel.carousel-slider .carousel-item {
-    width: 100%;
-    height: 100%;
-    min-height: 400px;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.carousel.carousel-slider .carousel-item h2 {
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 32px;
-}
-
-.carousel.carousel-slider .carousel-item p {
-    font-size: 15px;
-}
-
-.carousel .carousel-item {
-    height: 200px !important;
-    position: absolute !important;
-    top: 0 !important;
-    left: 0 !important;
-}
-
-.carousel .carousel-item > img {
-    width: 100%;
-}
-
-.carousel .indicators {
-    position: absolute;
-    text-align: center;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: 0;
-}
-
-.carousel .indicators .indicator-item {
-    display: inline-block;
-    position: relative;
-    cursor: pointer;
-    height: 8px;
-    width: 8px;
-    margin: 24px 4px;
-    background-color: rgba(255, 255, 255, 0.5);
-    -webkit-transition: background-color .3s;
-    transition: background-color .3s;
-    border-radius: 50%;
-}
-
-.carousel .indicators .indicator-item.active {
-    background-color: #fff;
-}
-
-.carousel.scrolling .carousel-item .materialboxed,
-.carousel .carousel-item:not(.active) .materialboxed {
-    pointer-events: none;
-}
-
-.logo-navbar {
-    width: 100%;
-}
-
-.populaire-title {
-    color: var(--tertiary);
-    margin-top: 3rem;
-}
-
-.slide {
-    margin-top: -8rem;
-}
-
-.carousel i {
+.carouselM i {
     margin: 10px;
+}
+
+.carousel-materialize{
+    height: 300px;
+}
+
+.carousel-materialize .carousel-item-materialize{
+    width: 100%;
 }
