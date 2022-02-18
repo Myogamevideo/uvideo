@@ -618,3 +618,18 @@ body {
 .carousel-materialize .carousel-item-materialize{
     width: 100%;
 }
+
+.carousel-materialize h2 {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    z-index: 1;
+    color: var(--tertiary);
+    font-family: "Mochiy Pop One";
+    border-color: #000000;
+    text-shadow: #000000 2px 2px, #000000 -2px 2px, #000000 -2px -2px, #000000 2px -2px;
+}
+
+.lastfilm-title h2 {
+    font-family: "Mochiy Pop One";
+}

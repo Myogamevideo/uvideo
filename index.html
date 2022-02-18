@@ -45,8 +45,8 @@
             <section class="carousel-main">
                 <div class="container">
                     <div class="populaire">
-                        <div class="populaire-title d-flex">
-                            <i class="fa-solid fa-star"></i>
+                        <div class="populaire-title d-flex align-items-center">
+                            <i class="fa-solid fa-star mx-3"></i>
                             <h2>Populaire en ce moment</h2>
                         </div>
                         <div id="carousel3D" class="carouselM slide carou3d" data-bs-ride="carousel">
@@ -141,34 +141,52 @@
                     </div>
                 </div>
             </section>
-            <section class="carouselfixe">
+            <section class="carouselfixe1">
                 <div class="container">
-                    <div class="lastfilm-title d-flex">
-                        <i class="fa-solid fa-film"></i>
-                        <h2>Derniers films ajoutées</h2>
-                    </div>
-                    <div class="col-12">
-                        <div class="col-3">
+                    <div class="col-12 row">
+                        <div class="col-4">
+                            <p class="d-flex column">
+                                <a class="btn" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                                    aria-expanded="false" aria-controls="collapseExample">
+                                    Films
+                                </a>
+                                <button class="btn" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseExample" aria-expanded="false"
+                                    aria-controls="collapseExample">
+                                    Series
+                                </button>
+                            </p>
+                            <div class="collapse" id="collapseExample">
+                                <div class="card card-body">
+                                    Some placeholder content for the collapse component. This panel is hidden by default
+                                    but revealed when the user activates the relevant trigger.
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-9">
-                            <div class="carouselM carousel-materialize carousel-slider center" id="carousel-materialize">
+                        <div class="col-8">
+                            <div class="lastfilm-title d-flex align-items-center text-white">
+                                <i class="fa-solid fa-film mx-3"></i>
+                                <h2 class="fs-5">Derniers films ajoutées</h2>
+                            </div>
+                            <div class="carouselM carousel-materialize carousel-slider center"
+                                id="carousel-materialize">
                                 <div class="carousel-item-materialize carousel-item white-text" href="#one!">
                                     <img class="img-fluid"
                                         src="./img/Carousel derniers films/136720-affiche_du_film-la_science_fiction-personnage_de_fiction-ciel-jeu_daction_aventure-1920x1080.jpg"
-                                        alt="">
+                                        alt="img-gunn">
                                     <h2>Gunn</h2>
                                 </div>
                                 <div class="carousel-item-materialize carousel-item white-text" href="#two!">
                                     <img class="img-fluid"
                                         src="./img/Carousel derniers films/164287-scarlett_johansson-la_veuve_noire-les_eternels-affiche-yelena_belova-1920x1080.jpg"
                                         alt="">
-                                    <h2>Second Panel</h2>
+                                    <h2>Black Widow</h2>
                                 </div>
                                 <div class="carousel-item-materialize carousel-item white-text" href="#three!">
                                     <img class="img-fluid"
                                         src="./img/Carousel derniers films/164882-joker-affiche_du_film_joker-affiche-affiche_du_film-warner_bros_images-1920x1080.jpg"
                                         alt="">
-                                    <h2>Third Panel</h2>
+                                    <h2>The Joker</h2>
                                 </div>
                             </div>
                         </div>
