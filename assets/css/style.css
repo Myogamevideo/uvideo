@@ -1,7 +1,7 @@
 :root {
     --font-family-sans-serif: "Open Sans", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --primary: #FFA466;
     --secondary: #785392;
     --tertiary: #fff;
@@ -262,17 +262,17 @@ h1, .h1 {
     background: rgba(255, 255, 255, 0.04);
 }
 
-.dashboard-nav-dropdown.show > .dashboard-nav-dropdown-toggle {
+.dashboard-nav-dropdown.show>.dashboard-nav-dropdown-toggle {
     font-weight: bold;
 }
 
-.dashboard-nav-dropdown.show > .dashboard-nav-dropdown-toggle:after {
+.dashboard-nav-dropdown.show>.dashboard-nav-dropdown-toggle:after {
     -webkit-transform: none;
     -o-transform: none;
     transform: none;
 }
 
-.dashboard-nav-dropdown.show > .dashboard-nav-dropdown-menu {
+.dashboard-nav-dropdown.show>.dashboard-nav-dropdown-menu {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -383,7 +383,7 @@ h1, .h1 {
     .dashboard-app {
         margin-left: 470px;
     }
-    
+
     .dashboard-compact .dashboard-app {
         margin-left: 0;
     }
@@ -406,7 +406,7 @@ h1, .h1 {
         bottom: 0;
         z-index: 1070;
     }
-    
+
     .dashboard-nav.mobile-show {
         display: block;
     }
@@ -425,7 +425,7 @@ h1, .h1 {
     .dashboard-toolbar {
         left: 471px;
     }
-    
+
     .dashboard-compact .dashboard-toolbar {
         left: 0;
     }
@@ -547,7 +547,7 @@ body {
     left: 0 !important;
 }
 
-.carousel .carousel-item > img {
+.carousel .carousel-item>img {
     width: 100%;
 }
 
@@ -589,3 +589,16 @@ body {
 .populaire-title {
     color: var(--tertiary);
 }
+
+.profil-title {
+    color: white;
+}
+
+.img-profil{
+    width: 5rem;
+    height: 5rem;
+    background-color: #875de5;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
