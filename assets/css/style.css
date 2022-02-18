@@ -460,7 +460,7 @@ body {
     width: 50%;
     height: 100%;
 }
-
+/*
 .carousel {
     height: 700px;
     perspective: 600px;
@@ -581,7 +581,7 @@ body {
 .carousel .carousel-item:not(.active) .materialboxed {
     pointer-events: none;
 }
-
+*/
 .logo-navbar {
     width: 50%;
 }
@@ -590,15 +590,21 @@ body {
     color: var(--tertiary);
 }
 
-.profil-title {
-    color: white;
+h1 {
+color: white;
 }
 
-.img-profil{
+.img-profil {
     width: 5rem;
     height: 5rem;
     background-color: #875de5;
     border-radius: 50%;
     overflow: hidden;
+}
+
+.button-modif {
+    display: flex;
+    justify-content: center;
+    color: white;
 }
 
