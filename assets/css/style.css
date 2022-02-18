@@ -584,3 +584,26 @@ body {
 .logo-navbar {
     width: 50%;
 }
+
+/* Connexion */
+#connexion {
+    background: linear-gradient(180deg, #785392 0%, #9A7FAE 10.94%, #9A7FAE 26.56%, #9A7FAE 26.57%, #9C81AF 54.17%, #D0C3D9 78.12%, #D0C3D9 100%);
+}
+
+#connexion #connexion-logo {
+    text-align: center;
+}
+
+#connexion #connexion-form .form-control {
+    background: rgba(120, 83, 146, 0.5);
+    border: 3px solid rgba(120, 83, 146, 0.75);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+#connexion #connexion-form .btn-submit {
+    background: rgba(120, 83, 146, 0.5);
+    border: 3px solid rgba(120, 83, 146, 0.75);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
