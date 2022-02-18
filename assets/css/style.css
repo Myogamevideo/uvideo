@@ -596,23 +596,50 @@ body {
 
 #connexion #connexion-form .form-control {
     background: rgba(120, 83, 146, 0.5);
-    border: 3px solid rgba(120, 83, 146, 0.75);
+    border: 2px solid rgba(120, 83, 146, 0.75);
     box-sizing: border-box;
     border-radius: 15px;
 }
 
 #connexion #connexion-form .form-check-input:checked {
     background: rgba(120, 83, 146, 0.5);
-    border: 3px solid rgba(120, 83, 146, 0.75);
+    border: 2px solid rgba(120, 83, 146, 0.75);
 }
 
 #connexion #connexion-form .btn-submit {
     background: rgba(120, 83, 146, 0.5);
-    border: 3px solid rgba(120, 83, 146, 0.75);
+    border: 2px solid rgba(120, 83, 146, 0.75);
     box-sizing: border-box;
     border-radius: 15px;
 }
 #connexion #connexion-form .btn-submit:hover {
     background: rgba(120, 83, 146, 0.75);
     transition: 0.6s;
+}
+
+#connexion #connexion-via .btn-connexion-with {
+    background: rgba(120, 83, 146, 0.5);
+    border: 2px solid rgba(120, 83, 146, 0.75);
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-family: Secular One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 70px;
+    margin: 1rem;
+    width: 600px;
+}
+
+#connexion #connexion-via .btn-connexion-with .google-icon {
+    height: 75px;
+    width: 75px;
+}
+
+#connexion #connexion-via .btn-connexion-with .facebook-icon {
+    border-radius: 15px 0px 0px 15px;
+    background-image: url("/img/Facebook-icon.png");
+    background-size: cover;
+    height: 75px;
+    width: 75px;
 }
